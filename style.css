@@ -1,10 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
-.learncode{
+
+body {
+    overflow-x: hidden !important;
+}
+
+.learncode {
     width: 100%;
     height: 500px;
     background-color: black;
@@ -13,31 +17,37 @@
     color: #f8f6f6;
     padding-top: 70px;
 }
-#learncode{
+
+#learncode {
     font-size: 70px;
     font-weight: 700;
 }
-#learn2{
+
+#learn2 {
     color: #FFC0C7;
     font-weight: 700;
     /* margin-top: 10px; */
     font-size: 23px;
 }
-.search{
-    width: 32%;    
+
+.search {
+    width: 32%;
     margin-left: 34%;
 }
-#search-div{
+
+#search-div {
     padding-left: 40%;
 }
-a{
+
+a {
     cursor: pointer;
     text-decoration: underline;
     font-size: 23px;
     font-weight: 700;
     color: white;
 }
-.html{
+
+.html {
     width: 100%;
     height: auto;
     background-color: #D9EEE1;
@@ -45,44 +55,51 @@ a{
     display: flex;
     flex-direction: row;
 }
-.content-left{
+
+.content-left {
     width: 50%;
     height: auto;
     /* float: left; */
     text-align: center;
 }
-.content-right{
+
+.content-right {
     width: 42%;
     height: 530px;
     float: left;
     /* padding: 3% 7% 2% 4%; small devices */
 }
-#content-text{
+
+#content-text {
     font-size: 100px;
     font-weight: 700;
     margin-top: -18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-#html-btn{
+
+#html-btn {
     border-radius: 25px;
     padding-left: 52px;
     padding-right: 39px;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.html-example{
+
+.html-example {
     padding: 16px;
     background-color: #38444d;
     color: #ddd;
     border-radius: 5px;
 
 }
-.html-code{
+
+.html-code {
     font-size: 15px;
-    height:300px;
-    background-color:black;
+    height: 300px;
+    background-color: black;
 }
-.css{
+
+.css {
     width: 100%;
     height: auto;
     padding-top: 6%;
@@ -90,21 +107,24 @@ a{
     flex-direction: row;
     background-color: #FFF4A3;
 }
-.javascript{
-    width: 100%;
+
+.javascript {
+    width: 101%;
     height: auto;
     padding-top: 6%;
     display: flex;
     flex-direction: row;
     background-color: #070707;
 }
-.js-code{
+
+.js-code {
     font-size: 15px;
-    height:231px;
-    background-color:black;
+    height: 231px;
+    background-color: black;
     overflow: hidden;
 }
-.python{
+
+.python {
     width: 100%;
     height: auto;
     padding-top: 5%;
@@ -112,7 +132,8 @@ a{
     flex-direction: row;
     background-color: #F3ECEA;
 }
-.sql{
+
+.sql {
     width: 100%;
     height: auto;
     padding-top: 5%;
@@ -120,66 +141,76 @@ a{
     flex-direction: row;
     background-color: #96D4D4;
 }
- .list{
+
+.list {
     width: 100%;
     height: auto;
     background-color: black;
     padding-top: 45px;
 }
 
-.php-section{
+.php-section {
     padding: 3% 7% 2% 4%;
     width: 49.99%;
     text-align: center;
     float: left;
 }
-.list-php{
+
+.list-php {
     color: black;
     background-color: #FFC0C7;
     padding: 24px;
     border-radius: 5px;
 }
-.list-sub-head{
+
+.list-sub-head {
     font-weight: 400;
 }
-.list-jquery{
+
+.list-jquery {
     color: black;
     padding: 24px;
     border-radius: 5px;
     background-color: #FFF4A3;
 }
-.list-java{
+
+.list-java {
     color: black;
     padding: 24px;
     border-radius: 5px;
     background-color: #F3ECEA;
 }
-.list-c{
+
+.list-c {
     color: black;
     padding: 24px;
     border-radius: 5px;
     background-color: #D9EEE1;
 }
-.list-w3c{
+
+.list-w3c {
     color: black;
     padding: 24px;
     border-radius: 5px;
     background-color: #96D4D4;
-    
+
 }
-.list-bootstrap{
+
+.list-bootstrap {
     color: black;
     padding: 24px;
     border-radius: 5px;
     background-color: #ffffff;
 }
-.w3lang{
+
+.w3lang {
     width: 100%;
     height: auto;
     background-color: black;
     margin: auto;
 }
-.c{
+
+.c {
     padding: 2% 3%;
     height: auto;
     text-align: center;
@@ -187,14 +218,16 @@ a{
     float: left;
 
 }
-.content{
+
+.content {
     padding: 36px 24px;
     font-size: 30px;
     font-weight: 500;
     background-color: #FFC0C7;
     border-radius: 5px;
 }
-.sublang{
+
+.sublang {
     padding: 2% 4%;
     width: 24.99999%;
     text-align: center;
@@ -202,9 +235,10 @@ a{
     font-size: 15px;
     line-height: 1.5;
     display: grid;
-   
+
 }
-.langlist{
+
+.langlist {
     padding: 24px 15px;
     border-radius: 5px;
     background-color: #F3ECEA;
@@ -213,104 +247,117 @@ a{
     font-weight: 500;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.codeeditor{
+
+.codeeditor {
     width: 100%;
     height: auto;
     background-color: #070707;
     padding: 30px 3px 50px 3px;
 }
-.editorcontent{
+
+.editorcontent {
     max-width: 974px;
     padding: 8px 16px;
     /* margin-left: 269.600px; */
     margin-right: 269.600px;
-   
+
 }
-.spaces{
+
+.spaces {
     width: 100%;
     height: auto;
     background-color: #282A35;
     padding: 30px 3px 85px 3px;
 }
-.mylearning{
+
+.mylearning {
     width: 100%;
     height: auto;
-    background-color:#D9EEE1 ;
+    background-color: #D9EEE1;
     padding: 30px 3px 85px 3px;
 }
-.prouser{
+
+.prouser {
     width: 100%;
     height: 400px;
-    background-color:#000000 ;
+    background-color: #000000;
     padding: 30px 3px 85px 3px;
 }
+
 ul li {
     list-style-type: none;
     text-align: center;
     color: white;
 }
-.colorpicker{
+
+.colorpicker {
     width: 100%;
     height: auto;
-    background-color:#e0d9d9 ;
+    background-color: #e0d9d9;
     padding: 30px 3px 85px 3px;
 }
-.codegame{
+
+.codegame {
     width: 100%;
     height: auto;
-    background-color:#96D4D4;
+    background-color: #96D4D4;
     padding: 30px 3px 85px 3px;
 }
-.excercise{
+
+.excercise {
     width: 100%;
     padding-left: 20px;
-    background-color: rgb(13,23,33);
+    background-color: rgb(13, 23, 33);
     color: white;
     padding-top: 64px;
     padding-bottom: 64px;
     text-align: center;
     height: auto;
 }
-.webtemplates{
+
+.webtemplates {
     width: 100%;
     height: auto;
-    background-color:#96D4D4;
+    background-color: #96D4D4;
     padding: 30px 3px 85px 3px;
     background-color: #38444d;
     color: #ddd;
 }
-.kickstart{
+
+.kickstart {
     width: 100%;
     height: auto;
     background-color: black;
-    padding-top: 62px; 
+    padding-top: 62px;
     padding-bottom: 62px;
     padding-left: 40px;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: auto;
     background-color: black;
     padding: 30px;
 }
 
-  @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #codeeditorimg {
-      width: 70%;
+        width: 70%;
     }
-  }
+}
 
-  @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #codeimg {
-      width: 50%;
+        width: 50%;
     }
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #codeimg {
-      width: 50%;
+        width: 50%;
     }
-    .content-right{
+
+    .content-right {
         padding: 3% 7% 2% 4%;
     }
-  }
+}
